@@ -14,9 +14,9 @@ type entity struct {
 }
 
 var entityList = []entity{
-	{Id: "1", Name: "Bloodborne", Sales: 2000},
-	{Id: "2", Name: "Dark Souls 3", Sales: 28000},
-	{Id: "3", Name: "Elden Ring", Sales: 15000},
+	{Id: "1", Name: "Entity1", Sales: 2000},
+	{Id: "2", Name: "Entity2", Sales: 28000},
+	{Id: "3", Name: "Entity3", Sales: 15000},
 }
 
 func getEntityList(context *gin.Context) {
